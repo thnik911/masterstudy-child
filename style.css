@@ -1,0 +1,44 @@
+/*
+ Theme Name:   MasterStudy Child
+ Theme URI: https://stylemixthemes.com/masterstudy/
+ Description:  My first child theme, based on MasterStudy
+ Author:       Nikita Project (kroz9112)
+ Author URI:   @th_nik1
+ Template:     masterstudy
+ Version:      1.0.0
+ Tags:         classes, courses, education, education center, learning center, tutoring, teaching, study, studying, learning, lessons, instructor, teacher, mentor
+ Text Domain:  masterstudy-child
+*/
+
+
+#footer-widgets {
+    width: 100%;
+        max-width: 1170px;
+        margin: 10px auto;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #7D7D7D;
+}
+
+#footer{
+    background-color: white !important;
+}
+
+.discleymer {
+    font-size: 10px;
+}
+
+.logo {
+    color: black !important;
+}
+
+.stm-lms-dynamic_sidebar {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    #header .header_mobile {
+        background-color: white;
+    }
+}
